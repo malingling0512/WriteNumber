@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--表格布局头部-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SelectActivity">
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnOne"
+            android:src="@drawable/on1_24_1"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnTwo"
+            android:src="@drawable/on2_24"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnThree"
+            android:src="@drawable/on3_24"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnFour"
+            android:src="@drawable/on4_24"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnFive"
+            android:src="@drawable/on5_24"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnSix"
+            android:src="@drawable/on6_24"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnSeven"
+            android:src="@drawable/on7_24"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnEight"
+            android:src="@drawable/on8_24"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnNine"
+            android:src="@drawable/on9_24"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:onClick="OnZero"
+            android:src="@drawable/on0_24"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <!--表格布局尾部-->
+</TableLayout>
